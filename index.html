@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mario Runner</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="bar">
+                <span id="hp">
+                    <img src="Images/Objects/hp.png" />
+                    HP: 
+                    <b id="hpBar">3</b>
+                </span>
+
+                <span id="bullets">
+                    <img src="Images/Objects/bullet.png"/>
+                    BULLETS: 
+                    <b id="bulletsBar">3</b>
+                </span>
+
+                <span id="score">
+                    <img src="Images/Objects/coins.png">
+                    Score: 
+                    <b id="scoreBar">0</b>
+                </span>
+            </div>
+
+            <canvas id="gameCanvas" width="700" height="400">
+
+            </canvas>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
